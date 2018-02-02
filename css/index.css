@@ -1,0 +1,708 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+.index_head{
+	width: 100%;
+	height: 1.14rem;
+	background-image: -webkit-linear-gradient(left,#FF3F4E,#ff408c);
+}
+.index_head_left{
+	display: block;
+	width: 0.34rem;
+	height: 0.34rem;
+	float: left;
+	margin-top: 0.4rem;
+	margin-left: 0.24rem;
+}
+#icon-saomiao_true{
+	font-size: 0.34rem;
+	color: #FFFCFC;
+	line-height: 0.34rem;
+	float: left;
+}
+.index_head_center{
+	display: block;
+	width: 5.21rem;
+	height: 0.41rem;
+	float: left;
+	margin-top: 0.32rem;
+	margin-left: 0.55rem;
+	border-bottom: 0.02rem solid rgba(255, 255, 255, 0.1);
+}
+#icon-sousuo_true{
+	font-size: 0.3rem;
+	color: #FFD9DD;
+	line-height: 0.41rem;
+	float: left;
+}
+.index_head_text{
+	float: left;
+	font-size: 0.26rem;
+	color: #FF9EA8;
+	line-height: 0.41rem;
+	margin-left: 0.24rem;
+}
+#icon-shengboyuyinxiaoxio_true{
+	font-size: 0.3rem;
+	color: #FFD9DD;
+	line-height: 0.41rem;
+	margin-top: 0.04rem;
+	float: right;
+}
+.index_head_right{
+	display: block;
+	width: 0.48rem;
+	height: 0.46rem;
+	float: right;
+	margin-top: 0.38rem;
+	margin-right: 0.24rem;
+}
+#icon-icon1_true{
+	font-size: 0.36rem;
+	color: #FFFCFC;
+	float: left;
+	line-height: 0.46rem;
+}
+.index_head_right_point{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #FEFAFB;
+	border-radius: 50%;
+	border: 0.03rem solid #FF63A0;
+	float: right;
+}
+/* 头部结束 */
+/* banner开始 */
+.index_banner{
+	width: 100%;
+	height: 4.38rem;
+	background: #FFFFFF;
+	position: relative;
+}
+.index_banner_top{
+	width: 100%;
+	height: 1.97rem;
+	background-image: -webkit-linear-gradient(left,#FF3F4E,#ff408c);
+}
+.index_banner_text{
+	font-size: 0.2rem;
+	color: #747272;
+	font-weight: bold;
+	line-height: 0.2rem;
+	position: absolute;
+	left: 0.23rem;
+	bottom: 0;
+}
+.index_banner_point{
+	width: 0.62rem;
+	height: 0.07rem;
+	position: absolute;
+	right: 0.23rem;
+	bottom: 0.13rem;
+}
+.index_banner_point_1{
+	width: 0.07rem;
+	height: 0.07rem;
+	background: #E7273A;
+	float: left;
+	border-radius: 50%;
+	margin-right: 0.04rem;
+}
+.index_banner_point_2{
+	width: 0.13rem;
+	height: 0.07rem;
+	background: #E7273A;
+	float: left;
+	border-radius: 0.04rem;
+}
+.index_banner_picture{
+	width: 7.02rem;
+	height: 3.94rem;
+	position: absolute;
+	top: 0;
+	left: 0.23rem;
+	box-shadow: 0 0.03rem 0.15rem 0.022rem rgba(0, 0, 0, 0.1);
+}
+.index_banner_picture_ture{
+	width: 7.02rem;
+	height: 3.94rem;
+}
+/* banner结束 */
+.index_banner_brand{
+	width: 100%;
+	height: 0.6rem;
+	background: #FFFFFF;
+}
+/* 品牌抢购开始 */
+.index_brand{
+	width: 100%;
+	height: 4.76rem;
+	background: #FFFFFF;
+}
+.index_brand_top{
+	width: 100%;
+	height: 0.92rem;
+	overflow: hidden;
+	position: relative;
+}
+.index_brand_top_box{
+	width: 4.38rem;
+	height: 0.26rem;
+	border: 0.02rem solid #F0F0F0;
+	margin-top: 0.11rem;
+	margin-left: 1.53rem;
+}
+.index_brand_top_color_1{
+	width: 1.42rem;
+	height: 0.2rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 3.04rem;
+}
+.index_brand_top_text_1{
+	width: 100%;
+	font-size: 0.2rem;
+	color: #F91B50;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.index_brand_top_color_2{
+	width: 2.1rem;
+	height: 0.16rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0.33rem;
+	left: 2.7rem;
+}
+.index_brand_top_text_2{
+	width: 100%;
+	font-size: 0.16rem;
+	color: #F9DFE4;
+	font-family: "San Francisco Display";
+	text-align: center;
+	line-height: 0.16rem;
+	position: absolute;
+	top: 0.33rem;
+	left: 0;
+}
+.index_brand_botttom{
+	width: 100%;
+	height: 3.84rem;
+}
+.index_brand_botttom_box{
+	width: 7.02rem;
+	height: 1.72rem;
+	border-radius: 0.1rem;
+	margin: 0 auto;
+	margin-bottom: 0.4rem;
+	position: relative;
+	box-shadow: 0 0.03rem 0.15rem 0.022rem rgba(0, 0, 0, 0.1);
+}
+.index_brand_botttom .index_brand_botttom_box:last-child{
+	margin-bottom: 0;
+}
+.index_brand_botttom_box_picture{
+	width: 1.5rem;
+	height: 2.02rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0;
+}
+.index_brand_botttom_picture{
+	width: 1.5rem;
+	height: 2.02rem;
+}
+.index_brand_botttom_text_box{
+	width: 3.8rem;
+	height: 100%;
+	float: left;
+	margin-left: 1.68rem;
+}
+.index_brand_botttom_text_1{
+	font-size: 0.3rem;
+	color: #8E8D8D;
+	font-family: "San Francisco Display";
+	line-height: 0.3rem;
+	margin-top: 0.23rem;
+}
+.index_brand_botttom_text_2{
+	font-size: 0.22rem;
+	color: #CBCACA;
+	font-family: "苹方";
+	font-weight: normal;
+	line-height: 0.22rem;
+	margin-top: 0.21rem;
+}
+.index_brand_botttom_text_3{
+	font-size: 0.2rem;
+	color: #EB6B87;
+	font-family: "San Francisco Display";
+	float: left;
+	line-height: 0.2rem;
+	margin-top: 0.39rem;
+}
+.index_brand_botttom_text_4{
+	font-size: 0.2rem;
+	color: #F4B0BF;
+	font-family: "San Francisco Display";
+	float: left;
+	line-height: 0.2rem;
+	margin-top: 0.39rem;
+}
+.index_brand_botttom_box_button{
+	display: block;
+	width: 0.93rem;
+	height: 0.42rem;
+	background-image: -webkit-linear-gradient(left,#EB6C87,#F08C65);
+	border-radius: 0.4rem;
+	float: right;
+	margin-top: 1.04rem;
+	margin-right: 0.24rem;
+	box-shadow: 0 0.05rem 0.2rem 0.02rem rgba(255, 65, 65, 0.2);
+}
+.index_brand_botttom_text_5{
+	width: 100%;
+	font-size: 0.14rem;
+	color: #FFFFFF;
+	font-family: "San Francisco Display";
+	float: left;
+	text-align: center;
+	line-height: 0.42rem;
+}
+/* 品牌抢购结束 */
+.index_brand_recommended{
+	width: 100%;
+	height: 0.47rem;
+	background: #FFFFFF;
+}
+/* 每日推荐开始 */
+.index_recommended{
+	width: 100%;
+	height: 3.63rem;
+	background: #FFFFFF;
+}
+.index_recommended_top{
+	display: block;
+	width: 100%;
+	height: 0.71rem;
+	overflow: hidden;
+	position: relative;
+}
+.index_recommended_top_box{
+	width: 4.38rem;
+	height: 0.26rem;
+	border: 0.02rem solid #F0F0F0;
+	margin-top: 0.11rem;
+	margin-left: 1.53rem;
+}
+.index_recommended_top_color_1{
+	width: 1.42rem;
+	height: 0.2rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 3.04rem;
+}
+.index_recommended_top_text_1{
+	width: 100%;
+	font-size: 0.2rem;
+	color: #F91B50;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.index_recommended_top_color_2{
+	width: 2.3rem;
+	height: 0.16rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0.33rem;
+	left: 2.6rem;
+}
+.index_recommended_top_text_2{
+	width: 100%;
+	font-size: 0.16rem;
+	color: #F9DFE4;
+	font-family: "San Francisco Display";
+	text-align: center;
+	line-height: 0.16rem;
+	position: absolute;
+	top: 0.33rem;
+	left: 0;
+}
+.index_recommended_botttom{
+	width: 100%;
+	height: 2.92rem;
+}
+.index_recommended_botttom_ture{
+	width: 7.09rem;
+	height: 2.92rem;
+	margin-left: 0.2rem;
+	position: relative;
+}
+.index_recommended_botttom_ture_picture_true{
+	width: 7.09rem;
+	height: 2.92rem;
+}
+.index_recommended_botttom_cencer{
+	width: 2.19rem;
+	height: 2.66rem;
+	background: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	top: 0.11rem;
+	left: 2.45rem;
+}
+.index_recommended_botttom_cencer_text_1{
+	font-size: 0.08rem;
+	color: #585858;
+	text-align: center;
+	line-height: 0.08rem;
+	margin-top: 0.3rem;
+}
+.index_recommended_botttom_cencer_text_2{
+	font-size: 0.16rem;
+	color: #585858;
+	text-align: center;
+	line-height: 0.16rem;
+	margin-top: 0.13rem;
+}
+.index_recommended_botttom_cencer_text_3{
+	font-size: 0.18rem;
+	color: #040000;
+	text-align: center;
+	line-height: 0.18rem;
+	margin-top: 0.11rem;
+}
+.index_recommended_botttom_box{
+	width: 0.62rem;
+	height: 0.62rem;
+	border: 0.03rem solid #000000;
+	margin-left: 0.76rem;
+	margin-top: 0.23rem;
+	font-size: 0.24rem;
+	color: #040000;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.62rem;
+}
+.index_recommended_botttom_cencer_text_4{
+	font-size: 0.1rem;
+	color: #5A5858;
+	text-align: center;
+	line-height: 0.1rem;
+	margin-top: 0.43rem;
+}
+.index_recommended_botttom_left{
+	width: 1.56rem;
+	height: 1.86rem;
+	position: absolute;
+	top: 0.79rem;
+	left: 0.44rem;
+}
+.index_recommended_botttom_right{
+	width: 1.56rem;
+	height: 1.86rem;
+	position: absolute;
+	top: 0.79rem;
+	right: 0.44rem;
+}
+.index_recommended_botttom_picture{
+	width: 1.56rem;
+	height: 1.86rem;
+}
+/* 每日推荐结束 */
+.index_recommended_like{
+	width: 100%;
+	height: 0.49rem;
+	background: #FFFFFF;
+}
+/* 猜你喜欢开始 */
+.index_like{
+	width: 100%;
+	height: 6.67rem;
+	background: #FFFFFF;
+}
+.index_like_top{
+	width: 100%;
+	height: 0.71rem;
+	overflow: hidden;
+	position: relative;
+}
+.index_like_top_box{
+	width: 4.38rem;
+	height: 0.26rem;
+	border: 0.02rem solid #F0F0F0;
+	margin-top: 0.11rem;
+	margin-left: 1.53rem;
+}
+.index_like_top_color_1{
+	width: 1.42rem;
+	height: 0.2rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 3.04rem;
+}
+.index_like_top_text_1{
+	width: 100%;
+	font-size: 0.2rem;
+	color: #F91B50;
+	font-family: "苹方";
+	text-align: center;
+	line-height: 0.2rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.index_like_top_color_2{
+	width: 1.9rem;
+	height: 0.16rem;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0.33rem;
+	left: 2.8rem;
+}
+.index_like_top_text_2{
+	width: 100%;
+	font-size: 0.16rem;
+	color: #F9DFE4;
+	font-family: "San Francisco Display";
+	text-align: center;
+	line-height: 0.16rem;
+	position: absolute;
+	top: 0.33rem;
+	left: 0;
+}
+.index_like_botttom{
+	width: 100%;
+	height: 5.96rem;
+}
+.index_like_botttom_list_1{
+	width: 100%;
+	height: 2.97rem;
+	overflow: hidden;
+	position: relative;
+}
+.index_like_botttom_list_picture_1{
+	width: 3.78rem;
+	height: 2.97rem;
+	float: left;
+}
+.index_like_picture_1_ture{
+	width: 3.78rem;
+	height: 2.97rem;
+}
+.index_like_botttom_list_text_1_1{
+	font-size: 0.3rem;
+	color: #5D5A5C;
+	font-family: "San Francisco Display";
+	font-weight: bold;
+	float: left;
+	line-height: 0.3rem;
+	top: 0.68rem;
+	left: 3.95rem;
+	position: absolute;
+}
+.index_like_botttom_list_text_1_2{
+	width: 2.5rem;
+	height: 0.36rem;
+	font-size: 0.14rem;
+	line-height: 0.18rem;
+	color: #5D5A5C;
+	font-family: "San Francisco Display";
+	float: left;
+	top: 1.15rem;
+	left: 3.97rem;
+	position: absolute;
+}
+.index_like_botttom_list_text_1_3{
+	font-size: 0.16rem;
+	color: #908E8F;
+	font-family: "San Francisco Display";
+	font-weight: bold;
+	float: left;
+	line-height: 0.16rem;
+	top: 2.03rem;
+	left: 3.97rem;
+	position: absolute;
+}
+.index_like_botttom_list_1_box{
+	width: 0.74rem;
+	height: 0.46rem;
+	position: absolute;
+	top: 2.2rem;
+	right: 0.4rem;
+}
+.index_like_botttom_list_box_round{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #F22D5A;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.01rem;
+	margin-right: 0.01rem;
+}
+.index_like_botttom_list_1_box .index_like_botttom_list_box_round:first-child{
+	background: #F88331;
+}
+.index_like_botttom_list_1_box .index_like_botttom_list_box_round:last-child{
+	background: #00B2ED;
+}
+.index_like_botttom_list_2_box .index_like_botttom_list_box_round:first-child{
+	background: #6CC24E;
+}
+.index_like_botttom_list_2_box .index_like_botttom_list_box_round:nth-child(2){
+	background: #FFF121;
+}
+.index_like_botttom_list_2_box .index_like_botttom_list_box_round:last-child{
+	background: #F45C4D;
+}
+.index_like_botttom_list_box_text_1{
+	font-size: 0.14rem;
+	color: #EB6B87;
+	font-family: "San Francisco Display";
+	float: left;
+	line-height: 0.14rem;
+	margin-top: 0.11rem;
+	margin-right: 0.04rem;
+}
+.index_like_botttom_list_box_text_2{
+	font-size: 0.14rem;
+	color: #F4B0BF;
+	font-family: "San Francisco Display";
+	float: left;
+	margin-top: 0.11rem;
+	line-height: 0.14rem;
+}
+.index_like_botttom_list_2{
+	width: 100%;
+	height: 2.99rem;
+	position: relative;
+}
+.index_like_botttom_list_text_2_1{
+	font-size: 0.3rem;
+	color: #5D5A5C;
+	font-family: "San Francisco Display";
+	font-weight: bold;
+	float: right;
+	line-height: 0.3rem;
+	top: 0.68rem;
+	right: 3.95rem;
+	position: absolute;
+}
+.index_like_botttom_list_text_2_2{
+	width: 2.5rem;
+	height: 0.36rem;
+	font-size: 0.14rem;
+	text-align: right;
+	line-height: 0.18rem;
+	color: #5D5A5C;
+	font-family: "San Francisco Display";
+	float: right;
+	top: 1.15rem;
+	right: 3.97rem;
+	position: absolute;
+}
+.index_like_botttom_list_text_2_3{
+	font-size: 0.16rem;
+	color: #908E8F;
+	font-family: "San Francisco Display";
+	font-weight: bold;
+	float: right;
+	line-height: 0.16rem;
+	top: 2.03rem;
+	right: 3.97rem;
+	position: absolute;
+}
+.index_like_botttom_list_picture_2{
+	width: 3.76rem;
+	height: 2.99rem;
+	float: right;
+}
+.index_like_picture_2_ture{
+	width: 3.76rem;
+	height: 2.99rem;
+}
+.index_like_botttom_list_2_box{
+	width: 0.74rem;
+	height: 0.46rem;
+	position: absolute;
+	top: 2.2rem;
+	left: 0.4rem;
+}
+/* 猜你喜欢结束 */
+/* TAB栏开始 */
+.index_TAB_top{
+	width: 100%;
+	height: 0.98rem;
+}
+.index_TAB{
+	width: 7rem;
+	height: 0.98rem;
+	background-image: -webkit-linear-gradient(left,#FF3F4E,#ff408c);
+	overflow: hidden;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.index_TAB_box{
+	width: 20%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.index_TAB_round_1{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	top: 0.09rem;
+	left: 0.3rem;
+}
+.index_TAB_round_2{
+	width: 0.62rem;
+	height: 0.62rem;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.3);
+	position: absolute;
+	top: 0.18rem;
+	left: 0.39rem;
+}
+.index_TAB_button{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.19rem;
+	left: 0.4rem;
+}
+#index_TAB_icon_true_1{
+	font-size: 0.5rem;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 0.6rem;
+	float: left;
+}
+#index_TAB_icon_true_2{
+	font-size: 0.5rem;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	line-height: 0.6rem;
+	float: left;
+}
+/* TAB栏结束 */

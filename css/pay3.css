@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+.pay3_head{
+	width: 100%;
+	height: 1.06rem;
+	background: #FFFFFF;
+	/* background-image: -webkit-linear-gradient(left,#FF3F4E,#ff408c); */
+}
+.pay3_head_left{
+	display: block;
+	width: 0.66rem;
+	height: 0.4rem;
+	background: #F3F3F3;
+	float: left;
+	border-radius: 0.2rem;
+	border: 0.02rem solid #E7E7E7;
+	margin-left: 0.22rem;
+	margin-top: 0.22rem;
+}
+#pay3_icon_1{
+	display: block;
+	font-size: 0.25rem;
+	color: #F13A5D;
+	float: left;
+	line-height: 0.4rem;
+	margin-left: 0.20rem;
+}
+.pay3_head_center{
+	height: 0.81rem;
+	float: left;
+	padding-top: 0.25rem;
+	margin-left: 2.27rem;
+}
+.pay3_head_text{
+	font-size: 0.26rem;
+	color: #F11E46;
+	line-height: 0.26rem;
+}
+.pay3_head_center_box{
+	width: 0.36rem;
+	height: 0.08rem;
+	margin-top: 0.12rem;
+	margin-left: 0.38rem;
+}
+.pay3_head_center_point_1{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #F11E46;
+	border-radius: 50%;
+	margin-top: 0.02rem;
+	float: left;
+	margin-right: 0.01rem;
+}
+.pay3_head_center_point_2{
+	width: 0.06rem;
+	height: 0.06rem;
+	background: #F11E46;
+	border-radius: 50%;
+	float: left;
+	border: 0.01rem solid #FAFAFA;
+}
+.pay3_head_center_point_3{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #FAFAFA;
+	border-radius: 50%;
+	float: left;
+	border: 0.02rem solid #F11E46;
+}
+.pay3_head_center_point_4{
+	width: 0.04rem;
+	height: 0.04rem;
+	background: #F11E46;
+	border-radius: 50%;
+	margin-top: 0.02rem;
+	float: left;
+	margin-left: 0.01rem;
+}
+.pay3_head_right{
+	display: block;
+	width: 0.66rem;
+	height: 0.4rem;
+	background: #F3F3F3;
+	float: right;
+	border-radius: 0.2rem;
+	border: 0.02rem solid #E7E7E7;
+	margin-right: 0.24rem;
+	margin-top: 0.22rem;
+}
+#pay3_icon_2{
+	display: block;
+	font-size: 0.25rem;
+	color: #F13A5D;
+	float: left;
+	line-height: 0.4rem;
+	margin-left: 0.205rem;
+}
+/* 头部结束 */
+/* 银行卡开始 */
+.pay3_bank{
+	width: 100%;
+	height: 3.57rem;
+	background: #FAFAFA;
+	position: relative;
+}
+.pay3_bank_box{
+	width: 7.02rem;
+	height: 3.57rem;
+	float: left;
+	margin-left: 0.24rem;
+}
+.pay3_bank_card{
+	display: block;
+	width: 6.54rem;
+	height: 3.30rem;
+	margin-left: 0.26rem;
+	margin-top: 0.27rem;
+	border-radius: 0.2rem;
+	box-shadow: 0 0.05rem 0.2rem 0.02rem rgba(255, 65, 65, 0.4);
+}
+
+#pay3_bank_card_true{
+	width: 6.54rem;
+	height: 3.30rem;
+}
+/* 银行卡结束 */
+/* 密码开始 */
+.pay3_password{
+	width: 100%;
+	height: 4.39rem;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+.pay3_password_text{
+	width: 100%;
+	font-size: 0.26rem;
+	color: #B4B4B4;
+	line-height: 0.26rem;
+	text-align: center;
+	margin-top: 1.47rem;
+}
+.pay3_password_box{
+	width: 4.91rem;
+	height: 0.66rem;
+	margin-left: 1.29rem;
+	margin-top: 0.4rem;
+}
+.pay3_password_box_list{
+	width: 0.6rem;
+	height: 0.6rem;
+	background: #F8F8F8;
+	border-radius: 50%;
+	border: 0.03rem solid #E2E2E2;
+	float: left;
+	margin-right: 0.19rem;
+}
+.pay3_password_box .pay3_password_box_list:last-child{
+	margin-right: 0;
+}
+.pay3_password_box_list_point{
+	width: 0.14rem;
+	height: 0.14rem;
+	background: #636363;
+	border-radius: 50%;
+	margin-left: 0.23rem;
+	margin-top: 0.23rem;
+}
+.pay3_password_button{
+	display: block;
+	width: 1.94rem;
+	height: 0.6rem;
+	background-image: -webkit-linear-gradient(left,#FE6077,#E92855);
+	border-radius: 0.3rem;
+	font-size: 0.26rem;
+	color: #FAFAFA;
+	font-weight:bold;
+	line-height: 0.6rem;
+	text-align: center;
+	margin-top: 0.48rem;
+	margin-left: 2.78rem;
+}
+/* 密码结束 */
+/* 键盘开始 */
+.pay3_keyboard{
+	width: 100%;
+	height: 4.32rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+#pay3_keyboard_true{
+	width: 7.5rem;
+	height: 4.32rem;
+}
+/* 键盘结束 */

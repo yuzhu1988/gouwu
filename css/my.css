@@ -1,0 +1,365 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+.my-head{
+	width: 100%;
+	height: 4.51rem;
+	background: #ffffff;
+	overflow: hidden;
+}
+.my_return{
+	display: block;
+	width: 0.58rem;
+	height: 0.37rem;
+	background: #ffffff;
+	border-radius: 0.12rem;
+	margin-left: 0.19rem;
+	margin-top: 0.36rem;
+	box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.2);
+}
+#my_jiantou{
+	display: block;
+	width: 0.58rem;
+	height: 0.37rem;
+	font-size:0.3rem;
+	color: #dd4289;
+	text-align: center;
+	line-height: 0.37rem; 
+}
+.my_touxiang{
+	width: 6.8rem;
+	height: 1.56rem;
+	margin-left: 0.35rem;
+	margin-top: 0.34rem;
+}
+.my_tousandian{
+	width: 0.09rem;
+	height: 0.41rem;
+	float: left;
+	margin-top: 0.63rem;
+}
+.tousandian1{
+	width: 0.09rem;
+	height: 0.09rem;
+	background: #ebebeb;
+	border-radius: 50%;
+	margin-bottom: 0.07rem;
+}
+.my_touxiangzhong{
+	width: 4.86rem;
+	height: 1.45rem;
+	float: left;
+	margin-top: 0.02rem;
+}
+.my_touxiangzhong1{
+	width: 1.1rem;
+	height: 0.49rem;
+	font-size: 0.3rem;
+	color: #dd4277;
+	margin-left: 3.74rem;
+	line-height: 0.49rem;
+	font-weight: bold;
+}
+.my_touxiangzhong2{
+	height: 0.62rem;
+}
+.my_touxiangzhong2zhong{
+	width: 3.25rem;
+	height: 0.45rem;
+	margin-top: 0.08rem;
+	float: right;
+}
+.zhong21{
+	display: block;
+	width: 0.46rem;
+	height: 0.46rem;
+	background: #fff2f8;
+	border-radius: 50%;
+	float: left;
+	box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.1);
+	
+}
+#zhong21zhong{
+	display: block;
+	font-size: 0.26rem;
+	color: #dd4289;
+	text-align: center;
+	line-height: 0.46rem;
+}
+.zujifensiguanzhu{
+	width: 0.75rem;
+	height: 0.46rem;
+	border-radius: 0.14rem;
+	float: right;
+	margin-left: 0.07rem;
+	box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.1);
+	font-size: 0.02rem;
+	color: #dd4289;
+	text-align: center;
+	line-height: 0.46rem;
+}
+.my_touxiangzhong3{
+	height: 0.34rem;
+	background: #ffffff;
+	font-size: 0.24rem;
+	color: #b6b6b6;
+	line-height: 0.34rem;
+	float: right;
+}
+.my_touxiangtupian{
+	display: block;
+	width: 1.48rem;
+	height:1.48rem;
+	background: url('../img/llf/my_touxiang .png') no-repeat center;
+	background: cover;
+	border: 0.03rem solid #ffffff;
+	float: right; 
+	border-radius: 50%;
+}
+.shoucangdingdan{
+	width: 4.52rem;
+	height: 0.72rem;
+	background: #ffffff;
+	border-radius: 0.28rem;
+	border: 0.01rem solid #e5e5e5;
+	margin: 0 auto;
+	margin-top: 0.58rem;
+}
+.my_shoucang{
+	width: 2.18rem;
+	height: 0.63rem;
+	background: #dd4289;
+	border-radius: 0.28rem;
+	float: left;
+	margin-left: 0.04rem;
+	margin-top: 0.06rem;
+}
+.shoucangdiandiannn{
+	width: 0.07rem;
+	height: 0.07rem;
+	background: #ffffff;
+	border-radius: 50%;
+	border: 0.03rem solid #de5392;
+	float: left;
+	margin-left: 0.28rem;
+	margin-top: 0.25rem;
+	margin-right: 0.41rem;
+}
+.shoucangzi{
+	font-size: 0.26rem;
+	color: #ffffff;
+	line-height: 0.63rem;
+	float: left;
+}
+.shoucangyou6{
+	width: 0.3rem;
+	height: 0.3rem;
+	background: #ffffff;
+	border-radius: 50%;
+	font-size: 0.16rem;
+	color: #dd4289;
+	text-align: center;
+	line-height: 0.3rem;
+	float: right;
+	margin-right: 0.16rem;
+	margin-top: 0.17rem;
+
+}
+.mydingdan{
+	font-size: 0.26rem;
+	color: #b6b6b6;
+	line-height: 0.72rem;
+	float: right;
+	margin-right: 0.93rem;
+}
+.my_list{
+	width: 100%;
+	height: 7.41rem;
+	background: #f9f9f9;
+	overflow: hidden;
+}
+.my_listzhong{
+	width: 7.02rem;
+	height: 6.36rem;
+	margin-top: 0.24rem;
+	margin-left: 0.24rem;
+}
+.my_listzhongshang{
+	width: 100%;
+	height: 1.49rem;
+	background: #ffffff;
+	border-radius: 0.1rem;
+	overflow: hidden;
+	box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.1);
+}
+.my_listzhongshang1{
+	width: 6.12rem;
+	height: 0.7rem;
+	margin-left: 0.46rem;
+	margin-top: 0.44rem;
+}
+.my_listzhongshang1list{
+/* 	width: 0.6rem; */
+	height: 100%;
+	margin-right: 0.63rem;
+	float: left;
+}
+.my_listzhongshang1 .my_listzhongshang1list:last-child
+{
+	margin-right: 0;
+}
+#my_listzhongshang1listtop{
+	display: block;
+	font-size: 0.34rem;
+	color: #ff408c;
+	text-align: center;
+}
+.my_listzhongshang1list #my_listzhongshang1listtop:nth-child(2){
+	font-size: 0.4rem;
+}
+.my_listzhongshang1listzi{
+	margin-top: 0.08rem;
+	font-size: 0.16rem;
+	color: #8b8b8b;
+	text-align: center;
+}
+.my_listzhongxia{
+	width: 100%;
+	height: 4.61rem;
+	border-radius: 0.1rem;
+	margin-top: 0.25rem;
+}
+.my_listzhongxialist{
+	display: block;
+	width: 2.17rem;
+	height: 2.17rem;
+	background: #ffffff;
+	margin-right: 0.25rem;
+	margin-bottom: 0.27rem;
+	float: left;
+	box-shadow: 0 0 0.2rem 0.01rem rgba(0, 0, 0, 0.1);
+}
+.my_listzhongxia .my_listzhongxialist:nth-child(3){
+	margin-right: 0;
+}
+.my_listzhongxia .my_listzhongxialist:last-child{
+	margin-right: 0;
+}
+.my_listzhongxialistzhong{
+	width: 1.13rem;
+	height: 1.08rem;
+	margin: 0 auto;
+	margin-top: 0.49rem;
+}
+#my_listzhongxialistzhonglist{
+	display: block;
+	font-size: 0.6rem;
+	color: #dd4289;
+	margin-left: 0.24rem;
+	margin-bottom: 0.2rem;
+}
+.my_listzhongxialistzhongzi{
+	font-size: 0.2rem;
+	color: #8b8b8b;
+	text-align: center;
+}
+
+/* tab */
+.index_TAB_top{
+	width: 100%;
+	height: 0.98rem;
+}
+.index_TAB{
+	width: 7rem;
+	height: 0.98rem;
+	background-image: -webkit-linear-gradient(left,#FF3F4E,#ff408c);
+	overflow: hidden;
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.index_TAB_box{
+	width: 20%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.index_TAB_round_1{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.2);
+	position: absolute;
+	top: 0.09rem;
+	left: 0.25rem;
+}
+.index_TAB_round_2{
+	width: 0.62rem;
+	height: 0.62rem;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.3);
+	position: absolute;
+	top: 0.18rem;
+	left: 0.34rem;
+}
+.index_TAB_button{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	position: absolute;
+	top: 0.19rem;
+	left: 0.4rem;
+}
+#index_TAB_icon_true_1{
+	font-size: 0.5rem;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	line-height: 0.6rem;
+	float: left;
+}
+#index_TAB_icon_true_2{
+	font-size: 0.5rem;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+	line-height: 0.6rem;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

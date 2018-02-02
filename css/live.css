@@ -1,0 +1,328 @@
+/*
+* @Author: Administrator
+* @Date:   2018-01-30 22:37:43
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-01-31 21:29:10
+*/
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.big_live{
+	width: 7.5rem;
+	height: auto;
+	background: #fafafa;
+}
+.photo{
+	width: 7.5rem;
+	height: 8.17rem;
+	background: url('../img/shenqu/b.png') no-repeat center;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+}
+.bringht{
+	width: 7.17rem;
+	height: 0.9rem;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 0.37rem;
+	
+}
+.bringht1{
+	width: 7.17rem;
+	height: 0.9rem;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	background: url('../img/shenqu/baby.png') no-repeat center;
+	background-size: cover;
+	margin-top: 0.37rem;
+	
+}
+
+
+.norules{
+	width: 0.69rem;
+	height: 0.77rem;
+	background: url('../img/shenqu/a10.png') no-repeat center;
+	background-size: cover;
+	margin-top: 6.0rem;
+	box-shadow: 0 0 0.18rem 0.01rem rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+
+}
+.circle{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-image: -webkit-linear-gradient(left,#ff3f4e,#ff408c);
+	margin-top: 0.13rem; 
+	margin-left: 0.07rem;
+	font-size: 0.4rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.4rem;
+
+}
+.small_photo{
+	width: 2.25rem;
+	height: 2.25rem;
+	background: url('../img/shenqu/b1.png') no-repeat center;
+	background-size: cover;
+	position: absolute;
+	right: 0.23rem;
+	bottom: 0.24rem;
+	border-radius: 0.08rem;
+	overflow: hidden;
+	
+}
+.circle1{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-image: -webkit-linear-gradient(left,#ff3f4e,#ff408c);
+	margin-top: 0.13rem; 
+	margin-left: 0.07rem;
+	font-size: 0.4rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.4rem;
+	margin: 0 auto;
+	margin-top: 0.87rem;
+}
+
+.room{
+	width: 7.3rem;
+	height: 1.09rem;
+	background: #fdfdfd;
+	padding-left: 0.2rem;
+	padding-top: 0.41rem;
+
+}
+.room1{
+	width: 7.3rem;
+	height: 0.31rem;
+	background: #fdfdfd;
+}
+.room2{
+	width: 6.6rem;
+	height: 0.31rem;
+	background: #fdfdfd;
+	padding-left: 0.70rem;
+}
+.room2_left{
+	width: 2.03rem;
+	height: 0.31rem;
+	font-size: 0.22rem;
+	float: left;
+	color: #808080;
+}
+
+.room_left{
+	width: 0.57rem;
+	height: 0.31rem;
+	float: left;
+	margin-right: 0.08rem;
+
+	background: url('../img/shenqu/one.png') no-repeat center;
+	background-size: cover;
+}
+.room_right{
+width: 1.27rem;
+height: 0.31rem;
+float: left;
+margin-left: 0.12rem;
+font-size: 0.22rem;
+color: #444444;
+}
+
+.room_center{
+	width: 0.5rem;
+	height: 0.31rem;
+	font-size: 0.22rem;
+	color: #fe3158;
+	float: left;
+}
+
+.history{
+	width: 7.31rem;
+	height: 1.11rem;
+	background: #fdfdfd;
+	padding-left: 0.19rem;
+}
+.chat{
+	width: 7.31rem;
+	height: 1.17rem;
+	background: #fdfdfd;
+	overflow: hidden;
+	padding-left: 0.19rem;
+}
+.news{
+	display: block;
+	width: 0.82rem;
+	height: 0.82rem;
+	border-radius: 50%;
+	background: #fdfdfd;
+	box-shadow: 0 0 0.18rem 0.01rem rgba(0, 0, 0, 0.2);
+	float: left;
+	margin-top: 0.16rem;
+	/* background: red; */
+	position: relative;
+}
+#id_news{
+	font-size: 0.7rem;
+	color: black;
+	float: left;
+	text-align: center;
+	position: absolute;
+	top: 0.08rem;
+	right: 0.08rem;
+	color: #ff2121;
+}
+#id_share{
+	font-size: 0.5rem;
+	color: black;
+	float: left;
+	text-align: center;
+	position: absolute;
+	top: 0.32rem;
+	right: 0.65rem;
+	color: #ff2121;
+}
+.shares{
+	width: 1.25rem;
+	height: 0.98rem;
+	float: left;
+	/* background: red; */
+	background: #fdfdfd;
+	margin-left: 0.26rem;
+	position: relative;
+}
+.in{
+	width: 3.65rem;
+	height: 0.77rem;
+	border-radius: 0.36rem;
+	float: left;
+	/* background: red; */
+	background: #ffffff;
+	border: 0.03rem solid #b2aaa6;
+	margin-top: 0.2rem;
+}
+.delete{
+	width: 1.23rem;
+	height: 0.82rem;
+	float: left;
+	margin-top: 0.16rem;
+	/* background: red; */
+	position: relative;
+	background: #fdfdfd;
+}
+#id_delete{
+	font-size: 0.8rem;
+	color: #b2aaa6;
+	float: left;
+	left: 0.16rem;
+	
+	position: absolute;
+	
+	right: 0.65rem;
+	color: #b2aaa6;
+}
+.room3{
+	width: 7.3rem;
+	height: 0.31rem;
+	background: #fdfdfd;
+}
+.room3_left{
+	width: 0.57rem;
+	height: 0.31rem;
+	float: left;
+	margin-right: 0.08rem;
+
+	background: url('../img/shenqu/two.png') no-repeat center;
+	background-size: cover;
+}
+.room3_center{
+	width: 1.79rem;
+	height: 0.31rem;/* background: red; */
+	float: left;
+	font-size: 0.22rem;
+	color: #fe81a1;
+}
+.room3_right{
+	width: 2.12rem;
+	height: 0.31rem;
+	float: left;
+	margin-left: 0.04rem;
+	font-size: 0.22rem;
+	color: #9f9f9f;
+}
+.star{
+	width: 6.95rem;
+	height: 1.29rem;
+	background: #fdfdfd;
+	padding-right: 0.55rem;
+}
+.star_left{
+	width: 2.7rem;
+	height: 0.71rem;
+	float: left;
+	border-radius: 0.34rem;
+	/* background: red; */
+	margin-top: 0.49rem;
+	margin-left: 0.19rem;
+	overflow: hidden;
+	box-shadow: 0 0 0.18rem 0.01rem rgba(0, 0, 0, 0.2);
+}
+.star_left_head{
+	width: 0.53rem;
+	height: 0.53rem;
+	border-radius: 50%;
+	background: url('../img/shenqu/a11.png') no-repeat center;
+	background-size: cover;
+	float: left;
+	margin-left: 0.1rem;
+	margin-top: 0.09rem;
+}
+.star_left_star{
+	width: 1.53rem;
+	height: 0.24rem;
+	background: url('../img/shenqu/a13.png') no-repeat center;
+	background-size: cover;
+	float: left;
+	margin-top: 0.22rem;
+	margin-left: 0.17rem;
+
+}
+.star_left_word{
+	width: 2.06rem;
+	height: 0.71rem;
+	float: right;
+	font-size: 0.22rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.71rem;
+}
+.star_right{
+	width: 2.7rem;
+	height: 0.71rem;
+	float: right;
+	border-radius: 0.34rem;
+	margin-right: 0.2rem;
+	box-shadow: 0 0 0.18rem 0.01rem rgba(0, 0, 0, 0.2);
+}
+.bili{
+	width: 3.4rem;
+	height: 1rem;
+	float: right;
+	background: url('../img/shenqu/star.png') no-repeat center;
+	background-size: cover;
+}
+.room33{
+	margin-top: 0.41rem;
+}
+
+

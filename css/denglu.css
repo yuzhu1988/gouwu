@@ -1,0 +1,249 @@
+/*
+* @Author: Administrator
+* @Date:   2018-02-01 09:28:23
+* @Last Modified by:   杨晨浩
+* @Last Modified time: 2018-02-01 14:34:12
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+.D_beijing{
+width: 7.5rem;
+height: 13.34rem;
+
+}
+.denglu{
+width: 7.5rem;
+height: 13.34rem;
+position: relative;	
+}
+.D_fanghezi{
+width: 6.54rem;
+height: 4.44rem;
+background: #F2F2F2;
+border-radius: 0.1rem;
+top: 5.75rem;
+left: 0.48rem;
+position: absolute;
+
+
+}
+.D_touxiang{
+width: 1.48rem;
+height: 1.48rem;
+border-radius: 50%;
+background:#495969; 
+top:4.87rem;
+left: 2.97rem;
+position: absolute;
+
+}
+.rentou{
+width: 0.5rem;
+height: 0.51rem;
+margin-top: 0.09rem;
+margin-left: 0.49rem;
+
+}
+.D_dengluhezi{
+width: 6.54rem;
+height: 4rem;
+background:white;
+top: 6.02rem;
+left: 0.48rem;
+position: absolute;
+
+}
+.D_fentouxiang{
+width: 0.33rem;
+height: 0.31rem;
+margin-left: 0.77rem;
+margin-top: 0.75rem;
+
+}
+.D_fentouxianghezi{
+width: 4.39rem;
+height: 0.48rem;
+border-bottom: 1px solid #DADADA;
+top: 0.73rem;
+left: 1.11rem;
+position: absolute;
+
+
+}
+.D_text{
+width: 2.5rem;
+height: 0.26rem;
+float: left;
+margin-left: 0.19rem;
+margin-top: 0.05rem;
+font-weight: bold;
+font-size: 0.18rem;
+border: 0rem;
+}
+
+.D_text:focus{
+	outline: none;
+}
+.D_zongdian{
+	float: left;
+width: 0.14rem;
+height: 0.14rem;
+border-radius: 50%;
+background: #FEE2E6;
+margin-left: 0.56rem;
+margin-top: 0.1rem;
+
+
+}
+.D_xiaodian{
+width: 0.08rem;
+height: 0.08rem;
+border-radius: 50%;
+background: #FF6A30;
+float: left;
+margin-top: 0.03rem;
+margin-left: 0.03rem;
+}
+
+.diugou{
+width: 0.26rem;
+height: 0.26rem;
+margin-left: 4.13rem;
+margin-top: 0.03rem;
+
+}
+.D_duigou{
+float: right;
+width: 0.26rem;
+height: 0.26rem;
+
+}
+.D_mima{
+margin-top: 0.9rem;
+
+
+}
+.D_SUO{
+width: 0.29rem;
+height: 0.37rem;
+left: 0.77rem;
+top: 1.63rem;
+position: absolute;
+
+}
+.D_dengluanniu{
+width: 2.92rem;
+height: 0.90rem;
+border-radius: 0.45rem;
+left: 1.81rem;
+top: 2.76rem;
+position: absolute;
+background-image:-webkit-linear-gradient(left,#E7376D,#E64D67);
+box-shadow: 0.1rem 0.1rem 0.3rem 0.01rem #FDCDD7;
+
+}
+.D_yuanyuan{
+width: 0.2rem;
+height: 0.2rem;
+border-radius: 50%;
+float: left;
+background: #E0638A;
+top: 0.36rem;
+left: 0.17rem;
+position: absolute;
+
+
+}
+.D_dianbaibai{
+width: 0.09rem;
+height: 0.09rem;
+border-radius: 50%;
+background: white;
+margin-top: 0.05rem;
+margin-left: 0.05rem;
+
+}
+.D_yuanyuan1{
+
+
+	margin-left: 2.42rem;
+}
+.D_baidianz{
+width: 0.42rem;
+height: 0.19rem;
+margin: 0 auto;
+margin-top: 0.36rem;
+}
+.D_baidian1{
+width: 0.1rem;
+height: 0.1rem;
+border-radius: 50%;
+background: white;
+float: left;
+margin-top: 0.06rem;
+margin-right: 0.06rem;
+
+
+}
+.D_baidianz .D_baidian2:last-child{
+margin-right: 0rem;
+}
+.koukou{
+width: 0.62rem;
+height: 0.62rem;
+float: left;
+left: 2.28rem;
+top: 11.42rem;
+position: absolute;
+
+}
+.weixin{
+width: 0.62rem;
+height: 0.62rem;
+float: left;
+left: 4.58rem;
+top: 11.42rem;
+position: absolute;
+
+
+}
+.jiewei{
+width:7.5rem;
+height: 0.56rem;
+top: 12.15rem;
+position: absolute;
+
+
+}
+.D_changtiao{
+width: 1.87rem;
+height: 0.04rem;
+background: #2B2A2A;
+margin-top: 0.31rem;
+margin-left: 0.97rem;
+float: left;
+}
+.D_wenzihezi{
+width: 1.15rem;
+height: 0.22rem;
+float: left;
+margin-left: 0.29rem;
+margin-top: 0.21rem;
+font-size: 0.22rem;
+color: #5C5B5B;
+text-align: center;
+line-height: 0.22rem;
+font-weight: bold;
+
+}
+.D_changtiao1{
+float: left;
+margin-left: 0.36rem;
+
+
+}
